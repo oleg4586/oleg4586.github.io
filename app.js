@@ -64,6 +64,6 @@ let usercard = document.getElementById("usercard");
 
 let p = document.createElement("p");
 
-p.innerText = `${tg.innerDataUnsafe.first_name}`;
+p.innerText = `${tg.innerDataUnsafe.user.first_name}`;
 
 usercard.appendChild(p);
